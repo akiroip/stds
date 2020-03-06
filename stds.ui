@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>stds</class>
+ <widget class="QDialog" name="stds">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>606</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>stds</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="stds.qrc">
+    <normaloff>:/images/playerShip.png</normaloff>:/images/playerShip.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QGraphicsView" name="gameView"/>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="stds.qrc"/>
+ </resources>
+ <connections/>
+</ui>
